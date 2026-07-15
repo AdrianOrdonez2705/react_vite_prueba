@@ -30,7 +30,7 @@ function App() {
     {
       icon: <VscHome size={18} />,
       label: "Home",
-      onClick: () => alert("Home!"),
+      onClick: () => codasdsdadas,
     },
     {
       icon: <VscArchive size={18} />,
