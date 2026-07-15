@@ -71,7 +71,7 @@ function App() {
           <Drawer.Positioner>
             <Drawer.Content>
               <Drawer.Header>
-                <Drawer.Title>Drawer Title</Drawer.Title>
+                <Drawer.Title>This is a Drawer</Drawer.Title>
               </Drawer.Header>
               <Drawer.Body>
                 <p>
@@ -81,10 +81,10 @@ function App() {
               </Drawer.Body>
               <Drawer.Footer>
                 <Drawer.ActionTrigger asChild>
-                  <Button variant="outline">Cancel</Button>
+                  <Button variant="outline">Cancelar</Button>
                 </Drawer.ActionTrigger>
                 <Drawer.ActionTrigger>
-                  <Button>Save</Button>
+                  <Button>Guardar</Button>
                 </Drawer.ActionTrigger>
               </Drawer.Footer>
               <Drawer.CloseTrigger asChild>
