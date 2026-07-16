@@ -157,6 +157,7 @@ function App() {
                   <Menu.Item value="new-file">New File...</Menu.Item>
                   <Menu.Item value="new-win">New Window</Menu.Item>
                   <Menu.Item value="open-file">Open File...</Menu.Item>
+                  <Menu.Item value="save">Save as</Menu.Item>
                   <Menu.Item value="export">Export</Menu.Item>
                 </Menu.Content>
               </Menu.Positioner>
@@ -184,8 +185,8 @@ function App() {
             <Button
               onClick={() =>
                 toaster.create({
-                  description: "Try creating a new group...",
-                  type: "success",
+                  description: "Try creating a new group first...",
+                  type: "info",
                 })
               }
             >
@@ -215,10 +216,10 @@ function App() {
               Pull Requests
             </Badge>
             <Badge colorPalette="green" size="md">
-              Success
+              Verified
             </Badge>
             <Badge colorPalette="red" size="md">
-              Danger
+              0 Errors
             </Badge>
           </Group>
 
